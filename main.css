@@ -55,6 +55,10 @@
     height: auto;
 }
 
+.card input {
+    display: none;
+}
+
 .header {
     position: relative;
     text-align: center;
