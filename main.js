@@ -20,8 +20,6 @@ document.onkeydown = (e) => {
 
 
 
-const btn = document.querySelector('.btn-clipBoard')
-const id = 37510000625788;
 
 
 function clipBoard() {
@@ -35,7 +33,5 @@ function clipBoard() {
     // Copy the text inside the text field
     navigator.clipboard.writeText(copyText.value);
     // Alert the copied text
-    alert("Copied the text: " + copyText.value);
+    alert("Copied the ID: " + copyText.value);
 }
-
-btn.addEventListener('click', clipBoard)
