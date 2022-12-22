@@ -38,4 +38,4 @@ function clipBoard() {
     alert("Copied the text: " + copyText.value);
 }
 
-btn.addEventListener('click', clipBoard())
+btn.addEventListener('click', clipBoard)
